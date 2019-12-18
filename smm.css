@@ -494,7 +494,7 @@ header p {
 
 header p a {
     color: #d3d3d2;
-    border-bottom: 1px solid #2a897a;
+    border-bottom: 1px solid #499585;
 }
 
 header .last-name {
@@ -734,7 +734,7 @@ header .social a:hover {
 hr {
     width: 30px;
     height: 3px;
-    background: #2A897A;
+    background: #499585;
     border: 0;
     margin: 1em auto
 }
@@ -898,7 +898,8 @@ footer img {
     width: 150px;
     position: relative;
     z-index: 999;
-    top: -70px;
+    top: 10px;
+    height: auto;
 }
 
 footer iframe {
@@ -908,22 +909,24 @@ footer iframe {
 
 @media screen and (min-width:42em) {
     footer img {
-        width: 340px
+        width: 340px;
+        height: auto;
     }
 }
 
 @media screen and (min-width:70em) {
     footer img {
-        width: 500px
+        width: 450;
+        height: auto;
     }
 }
 
 #follow-button {
-    background-color: #2a897a;
+    background-color: #499585;
 }
 
 .btn-o {
-    background-color: #2a897a;
+    background-color: #499585;
 }
 
 .no-bullets {
@@ -937,4 +940,51 @@ footer iframe {
 .list--inline li {
     display: inline-block;
     font-size: 1rem;
+}
+
+.icon-halo {
+    border-radius: 50%;
+    border: 3px solid #499585;
+    width: 450px;
+    height: 450px;
+    z-index: 777;
+    position: absolute;
+    top: 1236px;
+    left: 564px;
+}
+
+.icon-btn-se {
+    height: 90px;
+    width: 90px;
+    position: relative;
+    z-index: 888;
+    top: -105px;
+    right: -125px;
+}
+
+.icon-btn-sw {
+    height: 90px;
+    width: 90px;
+    position: relative;
+    z-index: 888;
+    top: -105px;
+    left: -310px;
+}
+
+.icon-btn-ne {
+    height: 90px;
+    width: 90px;
+    position: relative;
+    z-index: 888;
+    top: -390px;
+    right: -300px
+}
+
+.icon-btn-nw {
+    height: 90px;
+    width: 90px;
+    position: relative;
+    z-index: 888;
+    top: -390px;
+    left: -125px;
 }
