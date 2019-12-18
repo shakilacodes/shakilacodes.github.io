@@ -898,7 +898,7 @@ footer img {
     width: 150px;
     position: relative;
     z-index: 999;
-    top: 10px;
+    top: -50px;
     height: auto;
 }
 
@@ -944,13 +944,13 @@ footer iframe {
 
 .icon-halo {
     border-radius: 50%;
-    border: 3px solid #499585;
+    border: 3px solid #babab2;
     width: 450px;
     height: 450px;
     z-index: 777;
-    position: absolute;
-    top: 1236px;
-    left: 564px;
+    position: relative;
+    top: -535px;
+    left: 280px;
 }
 
 .icon-btn-se {
@@ -958,7 +958,7 @@ footer iframe {
     width: 90px;
     position: relative;
     z-index: 888;
-    top: -105px;
+    top: -195px;
     right: -125px;
 }
 
@@ -967,8 +967,8 @@ footer iframe {
     width: 90px;
     position: relative;
     z-index: 888;
-    top: -105px;
-    left: -310px;
+    top: -195px;
+    left: -410px;
 }
 
 .icon-btn-ne {
@@ -976,8 +976,8 @@ footer iframe {
     width: 90px;
     position: relative;
     z-index: 888;
-    top: -390px;
-    right: -300px
+    top: -195px;
+    right: -410px
 }
 
 .icon-btn-nw {
@@ -985,6 +985,6 @@ footer iframe {
     width: 90px;
     position: relative;
     z-index: 888;
-    top: -390px;
+    top: -195px;
     left: -125px;
 }
