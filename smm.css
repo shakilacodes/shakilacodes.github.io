@@ -988,3 +988,9 @@ footer iframe {
     top: -195px;
     left: -125px;
 }
+
+.far-icon {
+    margin-right: 40px;
+    margin-top: 3px;
+    display: inline-flex;
+}
